@@ -12,7 +12,7 @@ from pathlib import Path
 # for i in files:
 # #Open the JSON file location, assign variable JS
 
-with open(r"C:\Users\gd92\Documents\Mod-AWS Ranger_20190816.json") as file:
+with open(r"[insert FilePath") as file:
         js = json.load(file)
         #Open the CSV file location, assign variable wr
         with open("JSONparser.csv", 'w', newline='') as fd:
